@@ -5,43 +5,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hoja de vida de Carlos Arley Lozada Toro - Perfil de GitHub">
     <title>Hoja de Vida - Carlos Arley Lozada Toro</title>
-    <!-- Añadir iconos con Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-photo {
+            width: 150px;
+            border-radius: 50%;
+            border: 2px solid #007BFF;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        h2 {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="foto carlos.jpeg"  class="profile-photo">
+            <img src="mi-foto.jpg" alt="Foto de Carlos Arley Lozada Toro" class="profile-photo">
             <h1>Carlos Arley Lozada Toro</h1>
-            <p>Programador Junior | Experto en Java, Python, HTML, CSS, y Bases de Datos</p>
+            <p>Programador Junior</p>
+            <p>carloslozada2004@gmail.com | 3043930681</p>
+            <p class="social-links">
+                <a href="https://github.com/tu-usuario"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/tu-usuario"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </p>
+            <p>Ubicación: [Tu Ciudad, País]</p>
         </header>
 
-        <section id="about">
-            <h2>Sobre mí</h2>
-            <p>Soy un programador junior con experiencia en Java, Python, CSS, HTML, y bases de datos. Me apasiona el desarrollo de software y contribuir a proyectos de código abierto. Mi objetivo es seguir mejorando mis habilidades y colaborar en proyectos que marquen una diferencia.</p>
+        <section id="profile">
+            <h2>Perfil Profesional</h2>
+            <p>Soy un programador junior con experiencia en Java, Python, HTML, CSS y bases de datos. Tengo una sólida pasión por el desarrollo de software y un deseo constante de aprender y crecer en el campo. Me enfoco en la creación de soluciones innovadoras que resuelvan problemas reales y mejoren la eficiencia de los procesos. Busco contribuir en proyectos desafiantes y colaborar con un equipo dinámico en un ambiente de desarrollo ágil.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li><strong>Lenguajes de Programación:</strong> Java, Python, JavaScript</li>
+                <li><strong>Tecnologías Web:</strong> HTML, CSS, Bootstrap, React</li>
+                <li><strong>Bases de Datos:</strong> MySQL, PostgreSQL, SQLite</li>
+                <li><strong>Herramientas y Tecnologías:</strong> Git, GitHub, Docker, REST APIs</li>
+                <li><strong>Metodologías:</strong> Agile, Scrum</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experiencia Profesional</h2>
+            <h3>Programador Junior</h3>
+            <p><strong>Nombre de la Empresa</strong> - [Ciudad, País] <em>Mes/Año – Presente</em></p>
+            <ul>
+                <li>Desarrollé y mantuve aplicaciones web utilizando Java y Python, contribuyendo a la mejora del rendimiento y la eficiencia del sistema.</li>
+                <li>Colaboré con equipos multidisciplinarios para diseñar e implementar soluciones innovadoras que cumplieran con los requisitos del cliente.</li>
+                <li>Participé en la revisión de código y pruebas de software para asegurar la calidad del producto final.</li>
+            </ul>
+
+            <h3>Pasante de Desarrollo de Software</h3>
+            <p><strong>Nombre de la Empresa</strong> - [Ciudad, País] <em>Mes/Año – Mes/Año</em></p>
+            <ul>
+                <li>Asistí en el desarrollo de aplicaciones web utilizando HTML, CSS y JavaScript.</li>
+                <li>Realicé pruebas y depuración de aplicaciones para garantizar un funcionamiento óptimo.</li>
+                <li>Contribuí a la documentación técnica de proyectos y desarrollos.</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Educación</h2>
+            <p><strong>Título Universitario en Ingeniería de Sistemas</strong> - [Nombre de la Universidad] <em>Mes/Año – Mes/Año</em></p>
+            <ul>
+                <li>Cursos relevantes: Desarrollo de Software, Bases de Datos, Algoritmos y Estructuras de Datos, Ingeniería de Software.</li>
+            </ul>
         </section>
 
         <section id="projects">
-            <h2>Proyectos</h2>
-            <div class="project">
-                <h3><a href="https://github.com/tu-usuario/nombre-del-proyecto" target="_blank">Nombre del Proyecto 1</a></h3>
-                <p>Descripción breve del proyecto. Tecnologías utilizadas: [Python, JavaScript, etc.].</p>
-            </div>
-            <div class="project">
-                <h3><a href="https://github.com/tu-usuario/nombre-del-proyecto" target="_blank">Nombre del Proyecto 2</a></h3>
-                <p>Descripción breve del proyecto. Tecnologías utilizadas: [React, Node.js, etc.].</p>
-            </div>
+            <h2>Proyectos Destacados</h2>
+            <h3>Proyecto 1: Nombre del Proyecto</h3>
+            <p>Descripción breve del proyecto, destacando las tecnologías utilizadas y tu rol en el mismo. Incluye un enlace a GitHub si es posible.</p>
+            <p><strong>Tecnologías:</strong> [Java, Python, etc.]</p>
+            <p><a href="https://github.com/tu-usuario/nombre-del-proyecto">GitHub - Nombre del Proyecto</a></p>
+
+            <h3>Proyecto 2: Nombre del Proyecto</h3>
+            <p>Descripción breve del proyecto, destacando las tecnologías utilizadas y tu rol en el mismo. Incluye un enlace a GitHub si es posible.</p>
+            <p><strong>Tecnologías:</strong> [React, Node.js, etc.]</p>
+            <p><a href="https://github.com/tu-usuario/nombre-del-proyecto">GitHub - Nombre del Proyecto</a></p>
+        </section>
+
+        <section id="certifications">
+            <h2>Certificaciones</h2>
+            <ul>
+                <li><strong>Certificación en Desarrollo Web Full Stack</strong> - [Nombre de la Institución] - *Año*</li>
+                <li><strong>Certificación en Python para Desarrollo de Software</strong> - [Nombre de la Institución] - *Año*</li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Español: Nativo</li>
+                <li>Inglés: Intermedio</li>
+            </ul>
+        </section>
+
+        <section id="references">
+            <h2>Referencias</h2>
+            <p>Disponibles a solicitud.</p>
         </section>
 
         <footer>
-            <h2>Contacto</h2>
-            <ul class="social-links">
-                <li><a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-                <li><a href="https://linkedin.com/in/tu-usuario" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                <li><a href="mailto:carloslozada2004@gmail.com"><i class="fas fa-envelope"></i> carloslozada2004@gmail.com</a></li>
-                <li><i class="fas fa-phone"></i> 3043930681</li>
-            </ul>
+            <p>&copy; 2024 Carlos Arley Lozada Toro. Todos los derechos reservados.</p>
         </footer>
     </div>
     <script src="script.js"></script>
