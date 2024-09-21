@@ -1,119 +1,16 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
-}
-
-/* Contenedor principal alineado a la izquierda */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-header {
+.social-links li {
     display: flex;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 30px;
-}
-
-.profile-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-    font-size: 2.5em;
-    color: #1e3a8a; /* Azul oscuro moderno */
-}
-
-h2 {
-    font-size: 1.8em;
-    color: #1e3a8a;
-    margin-bottom: 10px;
-}
-
-p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-/* Sección de Proyectos */
-#projects .project {
-    margin-bottom: 20px;
-}
-
-.project h3 a {
-    color: #1e3a8a;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.project h3 a:hover {
-    color: #ff6600; /* Naranja moderno */
-}
-
-.project p {
-    font-size: 1.1em;
-}
-
-/* Efectos de Hover para los enlaces */
-a {
-    color: #1e3a8a;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #ff6600;
-}
-
-/* Footer */
-footer {
-    margin-top: 40px;
-}
-
-.social-links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
 }
 
 .social-links li a {
+    display: flex;
+    align-items: center;
     color: #1e3a8a;
     font-size: 1.5em;
     transition: color 0.3s ease;
 }
 
-.social-links li a:hover {
-    color: #ff6600;
-}
-
-/* Animación de entrada suave */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+.social-links li i {
+    margin-right: 8px; /* Espacio entre icono y texto */
 }
