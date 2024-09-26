@@ -1,3 +1,7 @@
+html, body {
+    background-color: grey !important;
+}
+
 .social-links li {
     display: flex;
     align-items: center;
